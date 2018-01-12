@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="droidmentor.tabwithviewpager.Fragment.DemandeFragment"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="200dp">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:background="#80000000"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:spinnerMode="dropdown"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:src="@drawable/drop" />
+
+
+    <Button android:id="@+id/btn_start"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
